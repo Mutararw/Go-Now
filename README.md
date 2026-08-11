@@ -1,4 +1,4 @@
-# ⚡ Go_Now
+#  Go_Now
 
 > **Learn Go. Build with Go. Think like a Go developer.**
 
@@ -130,7 +130,7 @@ Understanding how Go interacts with the outside world.
 - [ ] Signals
 - [ ] Graceful Exit
 
-### 🧪 Phase 06 — Quality & Engineering
+###  Phase 06 — Quality & Engineering
 
 Writing Go that can be trusted.
 
