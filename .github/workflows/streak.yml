@@ -2,8 +2,10 @@ name: Keep Streak Alive
 
 on:
   schedule:
-    - cron: '0 */4 * * *'  # Runs every 4 hours
-  workflow_dispatch:        # Allows you to test it manually
+    # Runs every 4 hours at :20 past the hour in Kigali (CAT = UTC+2):
+    # 03:20, 07:20, 11:20, 15:20 (3:20 PM), 19:20 (7:20 PM), 23:20 (11:20 PM) CAT
+    - cron: '20 1,5,9,13,17,21 * * *'
+  workflow_dispatch: # Allows manual runs anytime
 
 jobs:
   update-streak:
