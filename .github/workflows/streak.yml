@@ -28,4 +28,5 @@ jobs:
         run: |
           git add streak.log
           git commit -m "auto: automated streak upkeep [skip ci]"
+          git pull --rebase origin main
           git push
